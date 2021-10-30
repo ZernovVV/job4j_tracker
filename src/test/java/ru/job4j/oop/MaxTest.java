@@ -60,6 +60,7 @@ public class MaxTest {
         int result = maxim.max(3, 1, 3);
         assertThat(result, is(3));
     }
+
     @Test
     public void whenFourthMax() {
         Max maxim = new Max();
@@ -73,6 +74,7 @@ public class MaxTest {
         int result = maxim.max(1, 2, 4, 3);
         assertThat(result, is(4));
     }
+
     @Test
     public void whenSecondOfFourMax() {
         Max maxim = new Max();
