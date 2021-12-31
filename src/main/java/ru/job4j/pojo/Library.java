@@ -26,11 +26,10 @@ public class Library {
             System.out.println(bo.getName() + " - " + bo.getCount());
         }
         System.out.println();
-        String s = "Clean code";
         System.out.println("Search Clean code");
         for (int index = 0; index < books.length; index++) {
             Book bo = books[index];
-            if (s.equals(bo.getName())) {
+            if ("Clean code".equals(bo.getName())) {
                 System.out.println(bo.getName() + " at index " + index);
             }
         }
